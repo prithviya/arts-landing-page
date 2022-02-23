@@ -1,88 +1,92 @@
+*
+{
+  color: #333;
+}
 button {
-    position: relative;
-    padding: 19px 36px;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    border-radius: 40px;
-    border: none;
-   }
+  position: relative;
+  padding: 19px 36px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 40px;
+  border: none;
+  }
+  
+button span {
+  position: relative;
+  color: #fff;
+  letter-spacing: 4px;
+  z-index: 1;
+  }
    
-   button span {
-    position: relative;
-    color: #fff;
-    letter-spacing: 4px;
-    z-index: 1;
-   }
-   
-   button .liquid {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    background: #4973ff;
-    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
-    transition: .5s;
-   }
-   
-   button .liquid::after,
-   button .liquid::before {
-    content: '';
-    width: 200%;
-    height: 200%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    background: #fff;
-   }
-   
-   button .liquid::before {
-    border-radius: 45%;
-    background: rgba(20, 20, 20, 1);
-    animation: animate 5s linear infinite;
-   }
-   
-   button .liquid::after {
-    border-radius: 40%;
-    background: rgba(20, 20, 20, .5);
-    animation: animate 10s linear infinite;
-   }
-   
-   button:hover .liquid {
-    top: -120px;
-   }
-   
-   @keyframes animate {
-    0% {
-     transform: translate(-50%, -75%) rotate(0deg);
-    }
-   
-    100% {
-     transform: translate(-50%, -75%) rotate(360deg);
-    }
-   }
-   /* card1 */
-   
+button .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: #4973ff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+  transition: .5s;
+  }
+  
+  button .liquid::after,
+  button .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #fff;
+  }
+  
+  button .liquid::before {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate 5s linear infinite;
+  }
+  
+  button .liquid::after {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, .5);
+  animation: animate 10s linear infinite;
+  }
+  
+  button:hover .liquid {
+  top: -120px;
+  }
+  
+  @keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+  }
+  /* card1 */
+  
 .box {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px
 }
 
 .our-services {
-    margin-top: 75px;
-    padding-bottom: 30px;
-    padding: 0 60px;
-    min-height: 198px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #fff;
-    transition: all .4s ease-in-out;
-    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 60px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
 }
 
 .our-services .icon {
@@ -399,7 +403,7 @@ button {
   
   }
   
-  @media screen and (min-width: 400px ?? max-width: 660px) {
+  @media screen and (min-width: 400px && max-width: 660px) {
   
   .direction-l .desc,
   .direction-r .desc {
@@ -409,5 +413,294 @@ button {
   }
   .custom-stepper
   {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='1000' preserveAspectRatio='none' viewBox='0 0 1440 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1640%26quot%3b)' fill='none'%3e%3crect width='1440' height='1000' x='0' y='0' fill='url(%23SvgjsLinearGradient1641)'%3e%3c/rect%3e%3cpath d='M-133.16 -0.18 a132.98 132.98 0 1 0 265.96 0 a132.98 132.98 0 1 0 -265.96 0z' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M223.207%2c463.539C315.092%2c466.91%2c411.512%2c438.089%2c458.376%2c358.982C505.972%2c278.639%2c485.176%2c179.779%2c439.595%2c98.276C392.686%2c14.399%2c319.243%2c-57.92%2c223.207%2c-61.521C121.583%2c-65.331%2c23.121%2c-9.591%2c-23.238%2c80.922C-66.361%2c165.117%2c-35.08%2c263.228%2c16.144%2c342.755C62.519%2c414.754%2c137.623%2c460.399%2c223.207%2c463.539' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-200.49 67.15 a267.64 267.64 0 1 0 535.28 0 a267.64 267.64 0 1 0 -535.28 0z' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1393.499%2c316.491C1457.009%2c314.311%2c1521.573%2c300.567%2c1557.805%2c248.361C1599.623%2c188.105%2c1618.435%2c108.321%2c1582.245%2c44.526C1545.696%2c-19.902%2c1467.495%2c-44.66%2c1393.499%2c-41.274C1325.507%2c-38.163%2c1268.067%2c2.517%2c1232.471%2c60.53C1194.866%2c121.818%2c1170.135%2c199.489%2c1208.424%2c260.352C1245.217%2c318.837%2c1324.444%2c318.861%2c1393.499%2c316.491' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1465.193%2c502.995C1565.265%2c508.68%2c1659.832%2c453.305%2c1710.48%2c366.809C1761.659%2c279.406%2c1763.127%2c170.116%2c1710.939%2c83.312C1660.228%2c-1.035%2c1563.607%2c-42.021%2c1465.193%2c-41.171C1368.38%2c-40.335%2c1271.779%2c1.816%2c1226.692%2c87.494C1183.993%2c168.636%2c1218.206%2c261.917%2c1263.852%2c341.438C1309.765%2c421.423%2c1373.115%2c497.764%2c1465.193%2c502.995' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1069.18 37.48 a208.3 208.3 0 1 0 416.6 0 a208.3 208.3 0 1 0 -416.6 0z' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M150.393%2c1137.466C217.311%2c1140.927%2c280.618%2c1102.942%2c313.232%2c1044.408C345.048%2c987.306%2c336.732%2c918.289%2c304.06%2c861.673C271.375%2c805.035%2c215.784%2c761.872%2c150.393%2c762.234C85.541%2c762.593%2c29.111%2c805.586%2c-0.36%2c863.356C-27.35%2c916.262%2c-14.289%2c976.905%2c14.332%2c1028.947C44.295%2c1083.428%2c88.299%2c1134.254%2c150.393%2c1137.466' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-112.57 779.24 a91.81 91.81 0 1 0 183.62 0 a91.81 91.81 0 1 0 -183.62 0z' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M176.969%2c1208.691C251.552%2c1203.716%2c295.797%2c1131.677%2c328.569%2c1064.495C356.523%2c1007.19%2c365.969%2c941.473%2c334.32%2c886.122C302.455%2c830.393%2c241.105%2c802.144%2c176.969%2c799.36C106.8%2c796.314%2c32.882%2c812.838%2c-5.966%2c871.351C-48.683%2c935.692%2c-51.057%2c1019.474%2c-14.241%2c1087.364C24.326%2c1158.484%2c96.244%2c1214.076%2c176.969%2c1208.691' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1043.35 863.31 a259.96 259.96 0 1 0 519.92 0 a259.96 259.96 0 1 0 -519.92 0z' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1339.114%2c1041.827C1389.702%2c1040.572%2c1434.315%2c1012.489%2c1460.83%2c969.387C1488.829%2c923.872%2c1504.222%2c865.42%2c1475.261%2c820.51C1447.793%2c777.916%2c1389.795%2c781.082%2c1339.114%2c780.645C1287.241%2c780.197%2c1228.008%2c775.229%2c1198.836%2c818.124C1167.141%2c864.73%2c1176.521%2c927.95%2c1206.464%2c975.7C1234.596%2c1020.563%2c1286.176%2c1043.141%2c1339.114%2c1041.827' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1147.19 759.48 a52.29 52.29 0 1 0 104.58 0 a52.29 52.29 0 1 0 -104.58 0z' fill='rgba(155%2c 162%2c 162%2c 0.32)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1640'%3e%3crect width='1440' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1641'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 0.24)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='1000' preserveAspectRatio='none' viewBox='0 0 1440 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1004%26quot%3b)' fill='none'%3e%3crect width='1440' height='1000' x='0' y='0' fill='url(%23SvgjsRadialGradient1005)'%3e%3c/rect%3e%3cpath d='M256.845%2c556.897C356.054%2c558.466%2c428.214%2c470.071%2c471.656%2c380.866C509.456%2c303.245%2c500.371%2c215.864%2c460.119%2c139.485C416.381%2c56.491%2c350.659%2c-26.881%2c256.845%2c-26.746C163.178%2c-26.611%2c96.948%2c56.53%2c54.583%2c140.069C16.741%2c214.689%2c16.962%2c298.98%2c53.488%2c374.253C96.12%2c462.11%2c159.203%2c555.353%2c256.845%2c556.897' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-176.1 42.76 a218.86 218.86 0 1 0 437.72 0 a218.86 218.86 0 1 0 -437.72 0z' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M124.332%2c265.312C180.599%2c264.179%2c242.983%2c257.817%2c271.579%2c209.345C300.487%2c160.345%2c279.307%2c100.548%2c250.465%2c51.509C222.132%2c3.335%2c180.212%2c-41.965%2c124.332%2c-41.02C69.577%2c-40.094%2c34.082%2c9.017%2c5.376%2c55.653C-25.433%2c105.705%2c-62.561%2c164.37%2c-33.557%2c215.489C-4.368%2c266.935%2c65.194%2c266.503%2c124.332%2c265.312' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1018.41 88.26 a309.85 309.85 0 1 0 619.7 0 a309.85 309.85 0 1 0 -619.7 0z' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1131.85 -25.18 a82.97 82.97 0 1 0 165.94 0 a82.97 82.97 0 1 0 -165.94 0z' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1161.41 -54.74 a23.85 23.85 0 1 0 47.7 0 a23.85 23.85 0 1 0 -47.7 0z' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-210.99 877.66 a288.65 288.65 0 1 0 577.3 0 a288.65 288.65 0 1 0 -577.3 0z' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M254.923%2c1296.315C347.979%2c1300.729%2c446.973%2c1273.369%2c494.432%2c1193.203C542.587%2c1111.862%2c517.783%2c1012.292%2c472.042%2c929.57C424.422%2c843.45%2c353.328%2c759.123%2c254.923%2c760.061C157.572%2c760.989%2c87.902%2c846.32%2c44.861%2c933.644C7.164%2c1010.125%2c9.042%2c1098.425%2c51.778%2c1172.209C94.405%2c1245.804%2c169.969%2c1292.286%2c254.923%2c1296.315' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-152.55 819.22 a171.77 171.77 0 1 0 343.54 0 a171.77 171.77 0 1 0 -343.54 0z' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1418.41%2c1155.959C1487.126%2c1153.389%2c1557.017%2c1137.636%2c1595.553%2c1080.684C1639.005%2c1016.467%2c1651.998%2c933.027%2c1615.568%2c864.582C1577.109%2c792.325%2c1500.139%2c743.321%2c1418.41%2c747.866C1342.654%2c752.079%2c1294.026%2c818.987%2c1255.898%2c884.584C1217.498%2c950.649%2c1177.47%2c1029.293%2c1216.729%2c1094.851C1255.41%2c1159.444%2c1343.174%2c1158.773%2c1418.41%2c1155.959' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1342.062%2c1060.05C1395.179%2c1061.74%2c1437.814%2c1018.553%2c1461.02%2c970.743C1481.422%2c928.709%2c1470.52%2c881.816%2c1448.6%2c840.553C1424.815%2c795.779%2c1392.608%2c750.746%2c1342.062%2c746.808C1285.637%2c742.412%2c1227.252%2c770.57%2c1202.288%2c821.363C1179.274%2c868.188%2c1209.163%2c918.547%2c1235.529%2c963.57C1261.477%2c1007.88%2c1290.739%2c1058.417%2c1342.062%2c1060.05' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1056.53 850.13 a233.6 233.6 0 1 0 467.2 0 a233.6 233.6 0 1 0 -467.2 0z' fill='rgba(203%2c 210%2c 210%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1004'%3e%3crect width='1440' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='50%25' cy='50%25' r='876.58' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1005'%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 0.24)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+  /* application 2022 */
+/* order card */
+
+.ol-cards,
+.ol-cards *,
+.ol-cards *::before,
+.ol-cards *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ol-cards {
+  --ol-cards-color-bg: var(--color-bg);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 45em;
+  padding: 2em;
+  gap: 2em;
+  counter-reset: ol-cards-counter;
+}
+
+.ol-cards li {
+  display: grid;
+  grid-template-areas:
+    "step title"
+    "step content";
+  padding: 1em 2em 1em 0;
+  row-gap: 0.5em;
+  column-gap: 2em;
+  box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.4),
+    inset 0.05em 0.05em rgba(255, 255, 255, 1);
+  counter-increment: ol-cards-counter;
+  text-align: left;
+  background-color: var(--ol-cards-color-bg);
+}
+
+.ol-cards.alternate li:nth-child(even) {
+  grid-template-areas:
+    "title step"
+    "content step";
+  padding: 1em 0 1em 2em;
+}
+
+.ol-cards li .step {
+  grid-area: step;
+  display: flex;
+  align-self: flex-start;
+  background-color: var(--ol-cards-color-accent);
+  border-radius: 0 50em 50em 0;
+  padding: 1em;
+  justify-content: flex-end;
+  box-shadow: inset 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.4),
+    0em 0.05em rgba(255, 255, 255, 1);
+  flex: 1;
+  gap: 1em;
+}
+
+.ol-cards li .step::before {
+  content: "0" counter(ol-cards-counter);
+  flex: 1;
+  align-self: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 0.025em 0.025em 0.125em rgba(0, 0, 0, 0.4);
+}
+.ol-cards.alternate li:nth-child(even) .step {
+  border-radius: 50em 0 0 50em;
+  flex-direction: row-reverse;
+}
+
+.ol-cards li .step i {
+  color: var(--ol-cards-color-accent);
+  width: 2em;
+  height: 2em;
+  font-size: 1.8em;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: var(--ol-cards-color-bg);
+  box-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.4),
+    inset 0.05em 0.05em rgba(255, 255, 255, 1);
+}
+
+.ol-cards li .title {
+  grid-area: title;
+  color: var(--ol-cards-color-accent);
+  font-weight: bold;
+}
+.ol-cards li .content {
+  grid-area: content;
+  font-size: 0.9em;
+}
+
+@media only screen and (max-width: 500px) {
+  .ol-cards{
+    padding: 1em;
+  }
+  .ol-cards li{
+    column-gap: 0em;
+    grid-template-areas:
+      'step title'
+      'content content';
+    grid-template-columns: min-content auto;
+    padding: 1em 0em;
+  }
+  .ol-cards.alternate li:nth-child(even){
+    column-gap: 0em;
+    grid-template-areas:
+      'title step'
+      'content content';
+    grid-template-columns: auto min-content ;
+    padding: 1em 0em;
+  }
+  .ol-cards li .title{
+    padding: 0 1em;
+    align-self: center;
+    width: auto;
+    
+  }
+  .ol-cards li .step{
+    font-size: .5em;
+  }
+  .ol-cards li .content{
+    padding: 0 1em;
+  }
+}
+/* key highlight */
+
+:root {
+  --main-color: orangered;
+  --second-color: #1b1b1b;
+  --third-color: #d4d4d4;
+  --bg-color: #ebebeb;
+  --main-grid: repeat(auto-fill, minmax(300px, 1fr));
+  --main-padding: 40px;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills .text {
+  padding-bottom: 20px;
+}
+
+.skills h2 {
+  font-size: 35px;
+  color: var(--second-color);
+  padding-bottom: 20px;
+}
+
+.skills h2 span {
+  color: var(--main-color);
+}
+
+.skills p {
+  font-size: 18px;
+  color: var(--second-color);
+  font-weight: 400;
+}
+
+.skills .skill-card {
+  display: grid;
+  grid-template-columns: var(--main-grid);
+  grid-gap: 60px;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+
+.skills .skill-card .card{
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(80,80,80,0.1);
+  border: 2px solid var(--main-color);
+  color: #333;
+  transition: 1s;
+  position: relative;
+}
+
+.skills .card h4{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.skills .card p{
+  line-height: 1.7;
+  font-size: 16px;
+  color: #333;
+}
+
+.skills .card i{
+  font-size: 42px;
+  padding: 15px;
+  width: 65px;
+  height: 65px;
+  color: var(--second-color);
+  background-color: var(--main-color);
+  position: absolute;
+  top: calc(-75px / 2);
+  transform: rotate(45deg);
+  left: 37%;
+  transition: 1s;
+  border-radius: 25px;
+  border: 1px solid var(--main-color);
+}
+
+.skills .card:hover{
+  background-color: transparent;
+}
+
+.skills .card:hover i{
+  transform: rotate(0deg);
+  background-color: var(--bg-color);
+}
+
+.skills .card:hover h4, .skills .card:hover p{
+  color: var(--second-color);
+  transition: 1s;
+}
+
+.skills a{
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  border-radius: 2px;
+  color: var(--second-color);
+  transition: background-color 0.8s;
+  padding: 12px 20px;
+  letter-spacing: 1.5px;
+  z-index: 50px;
+  text-decoration: none;
+}
+
+.skills a:hover{
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+.support{
+position: relative;
+padding-left: 20px;
+padding-bottom: 20px;
+display: flex;
+background-color: var(--bg-color);
+}
+
+.support i{
+color: var(--main-color);
+font-size: 20px;
+margin-left: 8px;
+}
+
+.hide1{
+display: none;
+margin-left: 5px;
+margin-right: 10px;
+color: var(--main-color);
+font-size: 15px;
+}
+
+.support a:hover + .hide1{
+display: block;
+transition: all 1s;
+}
