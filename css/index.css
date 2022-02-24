@@ -561,7 +561,7 @@ button .liquid {
 
 :root {
   --main-color: orangered;
-  --second-color: #1b1b1b;
+  --second-color: #fafafa;
   --third-color: #d4d4d4;
   --bg-color: #ebebeb;
   --main-grid: repeat(auto-fill, minmax(300px, 1fr));
@@ -597,7 +597,7 @@ button .liquid {
 
 .skills h2 {
   font-size: 35px;
-  color: var(--second-color);
+  color: #333;
   padding-bottom: 20px;
 }
 
@@ -607,7 +607,7 @@ button .liquid {
 
 .skills p {
   font-size: 18px;
-  color: var(--second-color);
+  color: #333;
   font-weight: 400;
 }
 
@@ -623,7 +623,7 @@ button .liquid {
   padding: 25px;
   text-align: center;
   background-color: rgba(80,80,80,0.1);
-  border: 2px solid var(--main-color);
+  border: 1px solid var(--main-color);
   color: #333;
   transition: 1s;
   position: relative;
@@ -644,9 +644,9 @@ button .liquid {
 
 .skills .card i{
   font-size: 42px;
-  padding: 15px;
-  width: 65px;
-  height: 65px;
+  padding: 21px;
+  width: 48px;
+  height:47px;
   color: var(--second-color);
   background-color: var(--main-color);
   position: absolute;
@@ -664,11 +664,12 @@ button .liquid {
 
 .skills .card:hover i{
   transform: rotate(0deg);
-  background-color: var(--bg-color);
+  background-color: lightgrey;
+  color: orangered;
 }
 
 .skills .card:hover h4, .skills .card:hover p{
-  color: var(--second-color);
+  color: #333;
   transition: 1s;
 }
 
