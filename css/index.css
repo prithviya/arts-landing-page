@@ -974,3 +974,12 @@ background-color: #505050 ;
   transform-origin: 50% 50%;
   animation: jump .8s linear alternate infinite;
 }
+
+.text-block 
+{
+  /* background-color: rgba(80,80,80,0.2); */
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
