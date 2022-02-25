@@ -921,3 +921,56 @@ background-color: #505050 ;
   height: 5px;
   width: 30px;
 }
+/* button blicking */
+
+.blink-button {
+  position: relative;
+  color: #c31432;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* border: 2px solid #c31432; */
+  border-radius: 1000px;
+  padding: 7px 7px;
+  /* margin: 40px; */
+  box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
+  transition: 0.5s all ease-in-out;
+}
+.blink-button:hover {
+  cursor: pointer;
+  color: #fff;
+  animation: none;
+  text-decoration: none;
+}
+.button-pulse {
+  animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
+  box-shadow: 0 0 0 0 #505050;
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 18px rgba(255, 255, 255, 0);
+ }
+}
+/* you button */
+.cust-button
+{
+  background: orangered;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+.custom-square
+{
+  float: right;
+}
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+  40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+  100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
+}
+.jump {
+  transform-origin: 50% 50%;
+  animation: jump .6s linear alternate infinite;
+}
