@@ -972,5 +972,5 @@ background-color: #505050 ;
 }
 .jump {
   transform-origin: 50% 50%;
-  animation: jump .6s linear alternate infinite;
+  animation: jump .8s linear alternate infinite;
 }
