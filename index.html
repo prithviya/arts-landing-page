@@ -33,7 +33,7 @@
         <link itemprop="url" href="https://rathinam-admission.netlify.app/assets/favicon.webp">
     </span>
     <!-- banner and nav lap view -->
-    <div class="uk-section uk-preserve-color uk-padding-remove" style="background-image: url(./assets/home/banner.webp); background-size: contain; background-repeat: no-repeat;">
+    <div class="uk-section uk-preserve-color uk-padding-remove uk-visible@m" style="background-image: url(./assets/home/banner.webp); background-size: cover; background-repeat: no-repeat;">
         <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-nav; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 500;">
     
             <nav class="uk-navbar-nav">
@@ -71,7 +71,7 @@
                 <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
                     <div class="uk-inline">
                         <div class="text-block">
-                            <h4 class="uk-margin-small uk-text-center uk-text-bold" style="color: #fff;">
+                            <h4 class="uk-margin-small uk-text-center uk-text-bold" style="color: orangered;">
                                 <span>
                                     <img src="https://img.icons8.com/external-those-icons-lineal-those-icons/32/000000/external-pin-maps-locations-those-icons-lineal-those-icons-7.png"/></span>
                                     Virtual Campus Tour
@@ -100,8 +100,73 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
+    <div class="uk-section uk-preserve-color uk-padding-remove uk-hidden@s" style="background-image: url(./assets/home/banner.webp); background-size: contain; background-repeat: no-repeat;">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-nav; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 500;">
     
+            <nav class="uk-navbar-nav">
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="">
+                                <img src="./assets/art logo.webp" alt="">
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+            
+                <div class="uk-navbar-right">
+            
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="">
+                                <button>
+                                    <span>Apply</span>
+                                    <div class="liquid"></div>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+            </nav>
+        </div>
+        <div class="uk-section uk-light uk-margin-xlarge-top ">
+            <div class="uk-container">
+                <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+                    <div class="uk-inline">
+                        <div class="text-block">
+                            <h4 class="uk-margin-small uk-text-center uk-text-bold" style="color: orangered;">
+                                <span>
+                                    <img src="https://img.icons8.com/external-those-icons-lineal-those-icons/32/000000/external-pin-maps-locations-those-icons-lineal-those-icons-7.png"/></span>
+                                    Virtual Campus Tour
+                            </h4>
+
+                          </div>
+                          <!-- model -->
+                            <div id="modal-example" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body uk-padding-small">
+                                    <button class="uk-modal-close-outside uk-dark" type="button" uk-close></button>
+                                    <iframe width="570" height="330" src="https://www.youtube.com/embed/ShRgdESVCgg" uk-video="autoplay: inview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        <div class="uk-card">
+                            <img src="./assets/home/youtube.webp" alt="" style="border-radius: 25px;">
+                            <div class="uk-position-center uk-overlay">
+                                    <a class="cust-button button-blinking button-pulse" href="" uk-toggle="target: #modal-example">
+                                        <img src="./assets/youtube.webp" alt="" width="40">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
     </div>
     <!-- card -->
     <div class="uk-section">
@@ -353,54 +418,7 @@
         </div>
     </div>
     <!-- animation 3 card -->
-    <div class="uk-section uk-padding-small">
-        <div class="uk-container">
-            <div class="skills">
-                <div class="container">
-                    <div class="text">
-                        <h1 class="uk-text-bold"><span class="" style="color: orangered;">Key </span>Highlight</h1>
-                        <p>All our dreams can come true if we have the courage to pursue them.</p>
-                    </div>
-                    
-                    <div class="skill-card">
-                        <div class="card">
-                            <!-- <i class='fas fa-building'></i> -->
-                            <i class="fas fa-award"></i>
-                            <h4 class="">20+ COE</h4>
-                            <p>Exam related information / services for all the students of RCAS will be provided here.</p>
-                        </div>
-                        
-                        <div class="card">
-                            <i class="fas fa-trophy"></i>
-                            <h4 class="uk-text-capitalize">50+ Patent</h4>
-                            <p>To disseminate knowledge on patent registration process and to encourage our faculty and students work towards patent.</p>
-                        </div>
-                        <div class="card">
-                            <i class="fas fa-graduation-cap"></i>
-                            <h4 class="uk-text-capitalize">60+ Doctorates</h4>
-                            <p>Highly qualified professors with recent teaching techniques define our educational system.</p>
-                        </div>
-                        <div class="card">
-                            <i class="far fa-building"></i>
-                            <h4 class="uk-text-capitalize">40+ IT Company within the campus</h4>
-                            <p>Our Campus Annexed with 40+ IT Tech Park. Assured placement opportunity for Our Students.</p>
-                        </div>
-                        <div class="card">
-                            <i class="fas fa-ribbon"></i>
-                            <h4 class="uk-text-capitalize">NIRF 5 years in <br>the row </h4>
-                            <p>Consecutively five years securing its place among Top 150 ranked Institutions in India by (NIRF), Ministry of Education, Govt. of India.</p>
-                        </div>  
-                        <div class="card">
-                            <i class="fas fa-university"></i>
-                            <h4 class="uk-text-capitalize">ARIIA - ranked 10<sup>th</sup> technical institute </h4>
-                            <p>RCAS is recognized in the band EXCELLENT in atal ranking of institutions on innovation achievement (ARIIA) 2021.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-    </div>
+    
     <div class="uk-section uk-padding-small" style="background-image: url('./assets/Animated\ Shape.svg'); background-size: cover; background-repeat: no-repeat;">
         <div class="">
             <h1 class="uk-text-center uk-text-bold">Programs You <span class="" style="color:orangered;">Can Choose From</span></h1>
