@@ -847,7 +847,7 @@ transition: all 1s;
 }
 
 .main:hover .one::before{
-  content: url(../assets/social\ media/facebook.png);
+  content: url(../assets/social\ media/facebook.webp);
 }
 
 .main:hover .one {
@@ -860,7 +860,7 @@ transition: all 1s;
 }
 
 .main:hover .two::before{
-  content: url(../assets/social\ media/twitter.png);
+  content: url(../assets/social\ media/twitter.webp);
 }
 
 .main:hover .two {
@@ -873,7 +873,7 @@ transition: all 1s;
 }
 
 .main:hover .three::before{
-  content: url(../assets/social\ media/instagram.png);
+  content: url(../assets/social\ media/instagram.webp);
 }
 
 .main:hover .three {
@@ -887,7 +887,7 @@ background-color: #505050 ;
 }
 
 .main:hover .four::before{
-  content: url(../assets/social\ media/linkedin.png);
+  content: url(../assets/social\ media/linkedin.webp);
 }
 
 .main:hover .four {
