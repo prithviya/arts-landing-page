@@ -2,6 +2,30 @@
 {
   color: #333;
 }
+@font-face {
+  font-family: 'Inter';
+  src: url(../font/Inter-Bold.ttf);
+}
+.custom-head
+{
+  font-family: 'Inter';
+}
+@font-face {
+  font-family: 'Play';
+  src: url(../font/PlayfairDisplay-Regular.ttf);
+}
+.custom-title
+{
+  font-family: 'Play';
+}
+@font-face {
+  font-family: 'Sans';
+  src: url(../font/IBMPlexSansArabic-Regular.ttf);
+}
+.custom-subtitle
+{
+  font-family: 'Sans';
+}
 
 button {
   position: relative;
@@ -12,6 +36,7 @@ button {
   overflow: hidden;
   border-radius: 40px;
   border: none;
+  font-family: 'Inter';
   }
   .button1 {
     position: relative;
@@ -23,6 +48,7 @@ button {
     border-radius: 40px;
     border: none;
     margin-top: 5px;
+    font-family: 'Inter';
     }
 button span {
   position: relative;
